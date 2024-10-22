@@ -10,3 +10,84 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.cuentaAtras{
+    text-align: end;
+    margin-right: 2rem;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+h1{
+    text-align: center;
+    margin-top: 5em;
+    margin-bottom: 3rem;
+    flex: 1;
+}
+
+.principal{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    flex-wrap: wrap;
+    min-width: 250px;
+}
+
+.contador{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    height: 11rem;
+    background-color: darkslategray;
+    color: white;
+    border-radius: 30px;
+    position: relative;
+    justify-content: space-evenly;
+    min-width: 250px;
+}
+
+.icono::before{
+    content: "⏱️";
+    color: black;
+    font-size: 7rem;
+    height: 100%;
+    
+}
+
+.numeros{
+    position: inherit;
+    background-color: black;
+    border-left: 2px solid;
+    border-right: 2px solid;
+    border-color: red;
+    width: 20%;
+    height: 50%;
+    border-radius: 10px;
+    font-size: 2rem;
+    text-align: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}    
+
+.segundos{
+    margin-bottom: 0px;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* div{
+	border: 1px dashed red;
+	min-height: 10px;
+} */
+
