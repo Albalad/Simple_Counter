@@ -1,4 +1,3 @@
-
 /* 
 
     You can write your own styles here...
@@ -10,3 +9,128 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+* {
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  .cuentaAtras {
+    text-align: end;
+    margin-right: 2rem;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 5em;
+    margin-bottom: 3rem;
+  }
+  
+  .principal {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    flex-wrap: wrap;
+    min-width: 250px;
+  }
+  
+  .contador {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    height: 11rem;
+    background-color: darkslategray;
+    color: white;
+    border-radius: 30px;
+    position: relative;
+    justify-content: space-evenly;
+    min-width: 250px;
+  }
+  
+  .icono::before {
+    content: "⏱️";
+    color: black;
+    font-size: 7rem;
+    height: 100%;
+  }
+  
+  .numeros {
+    position: inherit;
+    background-color: black;
+    border-left: 2px solid;
+    border-right: 2px solid;
+    border-color: red;
+    width: 20%;
+    height: 50%;
+    border-radius: 10px;
+    font-size: 2rem;
+    text-align: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .segundos {
+    margin-bottom: 0px;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .botones{
+      justify-content: center;
+      display: flex;
+      margin-top: 2.5rem;
+      min-width: 300px;
+      flex-wrap: wrap;
+  }
+  
+  .botones>div{
+      display: flex;
+      margin-left: 2rem;
+      margin-right: 2rem;
+      margin-bottom: 2rem;
+  }
+  
+  .botones>div>button{
+      width: 20rem;
+      font-size: 1.5rem;
+      border-radius: 10px;
+  }
+  
+  .reset{
+      background-color: yellow;
+      font-weight: bold;
+  }
+  
+  .reset:hover{
+      background-color: rgb(153, 153, 3);
+      color: white;
+  }
+  
+  .start{
+      background-color: blue;
+      font-weight: bold;
+  }
+  
+  .start:hover{
+      background-color: darkblue;
+      color: white;
+  }
+  
+  .stop{
+      background-color: red;
+      font-weight: bold;
+  }
+  
+  .stop:hover{
+      background-color: darkred;
+      color: white;
+  }
+  
+  
